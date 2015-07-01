@@ -43,9 +43,9 @@ set showtabline=2
 set textwidth=0
 noremap j gj
 noremap k gk
-noremap <del> "_d
-noremap x "_x
-noremap X "_X
+nnoremap <del> "_d
+nnoremap x "_x
+nnoremap X "_X
 nnoremap <del><del> "_dd
 nnoremap <S-del> "_D
 nnoremap <unique> <Leader>t :tabnew<Space>
